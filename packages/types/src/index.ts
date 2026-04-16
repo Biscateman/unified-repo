@@ -19,3 +19,4 @@ export interface TokenStorage {
   setRefreshToken(token: string): Promise<void>;
   removeRefreshToken(): Promise<void>;
 }
+export const pi = 3.14;

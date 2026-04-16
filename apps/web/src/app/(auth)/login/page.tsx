@@ -10,8 +10,10 @@ import {
   setIsAuthenticated,
 } from "@repo/redux";
 import { toast } from "sonner";
+import { pi } from "@repo/types";
 
 const Login = () => {
+  console.log(pi);
   const router = useRouter();
   const dispatch = useAppDispatch();
   const handleLogin = async (username: string, password: string) => {
